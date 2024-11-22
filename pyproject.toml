@@ -1,0 +1,15 @@
+[project]
+name = "Vet-Auto-Segmentation"
+version = "0.1.0"
+description = "Veterinary Auto Segmentation project."
+authors = [{name = "Kausthubh Konuru", email = "kausthubhkonuru@ufl.edu"}]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = [
+]
+
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
