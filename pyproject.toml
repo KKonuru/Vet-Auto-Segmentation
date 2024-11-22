@@ -6,9 +6,12 @@ authors = [{name = "Kausthubh Konuru", email = "kausthubhkonuru@ufl.edu"}]
 readme = "README.md"
 license = { text = "MIT" }
 dependencies = [
+    "pypdf2>=3.0.1",
+    "requests>=2.32.3",
+    "gdown>=5.2.0",
 ]
 
-requires-python = ">=3.8"
+requires-python = ">=3.12"
 
 [build-system]
 requires = ["setuptools", "wheel"]

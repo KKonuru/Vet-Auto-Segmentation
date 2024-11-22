@@ -10,3 +10,28 @@
 #   universal: false
 
 -e file:.
+beautifulsoup4==4.12.3
+    # via gdown
+certifi==2024.8.30
+    # via requests
+charset-normalizer==3.4.0
+    # via requests
+filelock==3.16.1
+    # via gdown
+gdown==5.2.0
+    # via vet-auto-segmentation
+idna==3.10
+    # via requests
+pypdf2==3.0.1
+    # via vet-auto-segmentation
+pysocks==1.7.1
+    # via requests
+requests==2.32.3
+    # via gdown
+    # via vet-auto-segmentation
+soupsieve==2.6
+    # via beautifulsoup4
+tqdm==4.67.0
+    # via gdown
+urllib3==2.2.3
+    # via requests
